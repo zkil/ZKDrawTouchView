@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3812B21F1EE65361002D69CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812B21E1EE65361002D69CA /* main.m */; };
+		3812B2221EE65361002D69CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812B2211EE65361002D69CA /* AppDelegate.m */; };
+		3812B2251EE65361002D69CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812B2241EE65361002D69CA /* ViewController.m */; };
+		3812B2281EE65361002D69CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3812B2261EE65361002D69CA /* Main.storyboard */; };
+		3812B22A1EE65361002D69CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3812B2291EE65361002D69CA /* Assets.xcassets */; };
+		3812B22D1EE65361002D69CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3812B22B1EE65361002D69CA /* LaunchScreen.storyboard */; };
+		3812B2381EE65361002D69CA /* ZKDrawTouchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812B2371EE65361002D69CA /* ZKDrawTouchViewTests.m */; };
+		3812B2431EE65361002D69CA /* ZKDrawTouchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812B2421EE65361002D69CA /* ZKDrawTouchViewUITests.m */; };
+		3812B2521EE653A3002D69CA /* ZKDrawTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812B2511EE653A3002D69CA /* ZKDrawTouchView.m */; };
+		3812B2551EE6549B002D69CA /* ZKDrawTouchLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812B2541EE6549B002D69CA /* ZKDrawTouchLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3812B2341EE65361002D69CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3812B2121EE65361002D69CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3812B2191EE65361002D69CA;
+			remoteInfo = ZKDrawTouchView;
+		};
+		3812B23F1EE65361002D69CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3812B2121EE65361002D69CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3812B2191EE65361002D69CA;
+			remoteInfo = ZKDrawTouchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3812B21A1EE65361002D69CA /* ZKDrawTouchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKDrawTouchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3812B21E1EE65361002D69CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3812B2201EE65361002D69CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3812B2211EE65361002D69CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3812B2231EE65361002D69CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3812B2241EE65361002D69CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3812B2271EE65361002D69CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3812B2291EE65361002D69CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3812B22C1EE65361002D69CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3812B22E1EE65361002D69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3812B2331EE65361002D69CA /* ZKDrawTouchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKDrawTouchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3812B2371EE65361002D69CA /* ZKDrawTouchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKDrawTouchViewTests.m; sourceTree = "<group>"; };
+		3812B2391EE65361002D69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3812B23E1EE65361002D69CA /* ZKDrawTouchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKDrawTouchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3812B2421EE65361002D69CA /* ZKDrawTouchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKDrawTouchViewUITests.m; sourceTree = "<group>"; };
+		3812B2441EE65361002D69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3812B2501EE653A3002D69CA /* ZKDrawTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDrawTouchView.h; sourceTree = "<group>"; };
+		3812B2511EE653A3002D69CA /* ZKDrawTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDrawTouchView.m; sourceTree = "<group>"; };
+		3812B2531EE6549B002D69CA /* ZKDrawTouchLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDrawTouchLine.h; sourceTree = "<group>"; };
+		3812B2541EE6549B002D69CA /* ZKDrawTouchLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDrawTouchLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3812B2171EE65361002D69CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3812B2301EE65361002D69CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3812B23B1EE65361002D69CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3812B2111EE65361002D69CA = {
+			isa = PBXGroup;
+			children = (
+				3812B21C1EE65361002D69CA /* ZKDrawTouchView */,
+				3812B2361EE65361002D69CA /* ZKDrawTouchViewTests */,
+				3812B2411EE65361002D69CA /* ZKDrawTouchViewUITests */,
+				3812B21B1EE65361002D69CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3812B21B1EE65361002D69CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3812B21A1EE65361002D69CA /* ZKDrawTouchView.app */,
+				3812B2331EE65361002D69CA /* ZKDrawTouchViewTests.xctest */,
+				3812B23E1EE65361002D69CA /* ZKDrawTouchViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3812B21C1EE65361002D69CA /* ZKDrawTouchView */ = {
+			isa = PBXGroup;
+			children = (
+				3812B2201EE65361002D69CA /* AppDelegate.h */,
+				3812B2211EE65361002D69CA /* AppDelegate.m */,
+				3812B2231EE65361002D69CA /* ViewController.h */,
+				3812B2241EE65361002D69CA /* ViewController.m */,
+				3812B2261EE65361002D69CA /* Main.storyboard */,
+				3812B2291EE65361002D69CA /* Assets.xcassets */,
+				3812B22B1EE65361002D69CA /* LaunchScreen.storyboard */,
+				3812B22E1EE65361002D69CA /* Info.plist */,
+				3812B21D1EE65361002D69CA /* Supporting Files */,
+				3812B2501EE653A3002D69CA /* ZKDrawTouchView.h */,
+				3812B2511EE653A3002D69CA /* ZKDrawTouchView.m */,
+				3812B2531EE6549B002D69CA /* ZKDrawTouchLine.h */,
+				3812B2541EE6549B002D69CA /* ZKDrawTouchLine.m */,
+			);
+			path = ZKDrawTouchView;
+			sourceTree = "<group>";
+		};
+		3812B21D1EE65361002D69CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3812B21E1EE65361002D69CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3812B2361EE65361002D69CA /* ZKDrawTouchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3812B2371EE65361002D69CA /* ZKDrawTouchViewTests.m */,
+				3812B2391EE65361002D69CA /* Info.plist */,
+			);
+			path = ZKDrawTouchViewTests;
+			sourceTree = "<group>";
+		};
+		3812B2411EE65361002D69CA /* ZKDrawTouchViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3812B2421EE65361002D69CA /* ZKDrawTouchViewUITests.m */,
+				3812B2441EE65361002D69CA /* Info.plist */,
+			);
+			path = ZKDrawTouchViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3812B2191EE65361002D69CA /* ZKDrawTouchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3812B2471EE65361002D69CA /* Build configuration list for PBXNativeTarget "ZKDrawTouchView" */;
+			buildPhases = (
+				3812B2161EE65361002D69CA /* Sources */,
+				3812B2171EE65361002D69CA /* Frameworks */,
+				3812B2181EE65361002D69CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKDrawTouchView;
+			productName = ZKDrawTouchView;
+			productReference = 3812B21A1EE65361002D69CA /* ZKDrawTouchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3812B2321EE65361002D69CA /* ZKDrawTouchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3812B24A1EE65361002D69CA /* Build configuration list for PBXNativeTarget "ZKDrawTouchViewTests" */;
+			buildPhases = (
+				3812B22F1EE65361002D69CA /* Sources */,
+				3812B2301EE65361002D69CA /* Frameworks */,
+				3812B2311EE65361002D69CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3812B2351EE65361002D69CA /* PBXTargetDependency */,
+			);
+			name = ZKDrawTouchViewTests;
+			productName = ZKDrawTouchViewTests;
+			productReference = 3812B2331EE65361002D69CA /* ZKDrawTouchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3812B23D1EE65361002D69CA /* ZKDrawTouchViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3812B24D1EE65361002D69CA /* Build configuration list for PBXNativeTarget "ZKDrawTouchViewUITests" */;
+			buildPhases = (
+				3812B23A1EE65361002D69CA /* Sources */,
+				3812B23B1EE65361002D69CA /* Frameworks */,
+				3812B23C1EE65361002D69CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3812B2401EE65361002D69CA /* PBXTargetDependency */,
+			);
+			name = ZKDrawTouchViewUITests;
+			productName = ZKDrawTouchViewUITests;
+			productReference = 3812B23E1EE65361002D69CA /* ZKDrawTouchViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3812B2121EE65361002D69CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zk;
+				TargetAttributes = {
+					3812B2191EE65361002D69CA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C2Y8Q3RAAW;
+						ProvisioningStyle = Automatic;
+					};
+					3812B2321EE65361002D69CA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3812B2191EE65361002D69CA;
+					};
+					3812B23D1EE65361002D69CA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3812B2191EE65361002D69CA;
+					};
+				};
+			};
+			buildConfigurationList = 3812B2151EE65361002D69CA /* Build configuration list for PBXProject "ZKDrawTouchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3812B2111EE65361002D69CA;
+			productRefGroup = 3812B21B1EE65361002D69CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3812B2191EE65361002D69CA /* ZKDrawTouchView */,
+				3812B2321EE65361002D69CA /* ZKDrawTouchViewTests */,
+				3812B23D1EE65361002D69CA /* ZKDrawTouchViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3812B2181EE65361002D69CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3812B22D1EE65361002D69CA /* LaunchScreen.storyboard in Resources */,
+				3812B22A1EE65361002D69CA /* Assets.xcassets in Resources */,
+				3812B2281EE65361002D69CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3812B2311EE65361002D69CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3812B23C1EE65361002D69CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3812B2161EE65361002D69CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3812B2251EE65361002D69CA /* ViewController.m in Sources */,
+				3812B2521EE653A3002D69CA /* ZKDrawTouchView.m in Sources */,
+				3812B2551EE6549B002D69CA /* ZKDrawTouchLine.m in Sources */,
+				3812B2221EE65361002D69CA /* AppDelegate.m in Sources */,
+				3812B21F1EE65361002D69CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3812B22F1EE65361002D69CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3812B2381EE65361002D69CA /* ZKDrawTouchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3812B23A1EE65361002D69CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3812B2431EE65361002D69CA /* ZKDrawTouchViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3812B2351EE65361002D69CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3812B2191EE65361002D69CA /* ZKDrawTouchView */;
+			targetProxy = 3812B2341EE65361002D69CA /* PBXContainerItemProxy */;
+		};
+		3812B2401EE65361002D69CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3812B2191EE65361002D69CA /* ZKDrawTouchView */;
+			targetProxy = 3812B23F1EE65361002D69CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3812B2261EE65361002D69CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3812B2271EE65361002D69CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3812B22B1EE65361002D69CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3812B22C1EE65361002D69CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3812B2451EE65361002D69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3812B2461EE65361002D69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3812B2481EE65361002D69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = ZKDrawTouchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKDrawTouchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3812B2491EE65361002D69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = ZKDrawTouchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKDrawTouchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3812B24B1EE65361002D69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKDrawTouchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKDrawTouchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKDrawTouchView.app/ZKDrawTouchView";
+			};
+			name = Debug;
+		};
+		3812B24C1EE65361002D69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKDrawTouchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKDrawTouchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKDrawTouchView.app/ZKDrawTouchView";
+			};
+			name = Release;
+		};
+		3812B24E1EE65361002D69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKDrawTouchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKDrawTouchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKDrawTouchView;
+			};
+			name = Debug;
+		};
+		3812B24F1EE65361002D69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKDrawTouchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKDrawTouchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKDrawTouchView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3812B2151EE65361002D69CA /* Build configuration list for PBXProject "ZKDrawTouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3812B2451EE65361002D69CA /* Debug */,
+				3812B2461EE65361002D69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3812B2471EE65361002D69CA /* Build configuration list for PBXNativeTarget "ZKDrawTouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3812B2481EE65361002D69CA /* Debug */,
+				3812B2491EE65361002D69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3812B24A1EE65361002D69CA /* Build configuration list for PBXNativeTarget "ZKDrawTouchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3812B24B1EE65361002D69CA /* Debug */,
+				3812B24C1EE65361002D69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3812B24D1EE65361002D69CA /* Build configuration list for PBXNativeTarget "ZKDrawTouchViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3812B24E1EE65361002D69CA /* Debug */,
+				3812B24F1EE65361002D69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3812B2121EE65361002D69CA /* Project object */;
+}
